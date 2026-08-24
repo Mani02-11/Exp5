@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="22dp">
+
+        <!-- Logo Circle -->
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:background="@drawable/logo_bg">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ic_student"
+                android:contentDescription="Student Logo"
+                android:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="STUDENT"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="REGISTRATION"
+            android:textColor="#DCCBFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Create your student profile"
+            android:textColor="#C9BBDD"
+            android:textSize="14sp" />
+
+        <!-- Registration Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Enter your information below"
+                android:textColor="#CFC4DC"
+                android:textSize="13sp" />
+
+            <!-- Name -->
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="  Full Name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- USN -->
+            <EditText
+                android:id="@+id/etUSN"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="  USN"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="  Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- Mobile -->
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="  Mobile Number"
+                android:inputType="phone"
+                android:padding="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- Course -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Select Course"
+                android:textColor="#DCCBFF"
+                android:textSize="13sp" />
+
+            <Spinner
+                android:id="@+id/spinnerCourse"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_bg" />
+
+            <!-- Terms -->
+            <CheckBox
+                android:id="@+id/checkTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="I agree to Terms &amp; Conditions"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_bg"
+                android:text="REGISTER  →"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
