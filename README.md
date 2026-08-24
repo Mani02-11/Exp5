@@ -176,10 +176,8 @@ The application launched successfully and displayed the Student Registration pag
 
 ### Screenshot
 
-```text
 <img width="400" height="600" alt="1000161419" src="https://github.com/user-attachments/assets/6cf13eee-4b27-480a-86c1-e0c6093aebfa" />
 
-```
 
 ---
 
@@ -214,10 +212,8 @@ All registration details were entered successfully.
 
 ### Screenshot
 
-```text
 <img width="400" height="600" alt="1000161421" src="https://github.com/user-attachments/assets/7624b238-e200-49c5-9b6a-8f4f6b2021cb" />
 
-```
 
 > **Note:** This screenshot shows the student's **Name and USN** as required for the GitHub submission.
 
@@ -255,10 +251,9 @@ The Registration Successful notification was displayed correctly in the Android 
 
 ### Screenshot
 
-```text
 <img width="400" height="600" alt="1000161422" src="https://github.com/user-attachments/assets/6ca100e9-7681-447b-ae26-627b702424ba" />
 
-```
+
 
 ---
 
