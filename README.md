@@ -236,7 +236,7 @@ An Android notification should appear with the message:
 ```text
 Registration Successful
 
-Welcome Manikandan P!
+Welcome Manikandan!
 Your student registration has been
 completed successfully.
 ```
